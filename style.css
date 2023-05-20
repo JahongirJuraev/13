@@ -663,3 +663,65 @@ footer{
     line-height: 28px;
     color: #004047;
 }
+
+
+
+
+/* mediaQuery mediaQuery mediaQuery mediaQuery mediaQuery mediaQuery mediaQuery mediaQuery mediaQuery mediaQuery  */
+
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 92%;
+    }
+
+    .main{
+        /* width: 100%; */
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main__title{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header i{
+        color: #FFFFFF;
+        font-size: 50px;
+    }
+
+    nav{
+        display: none;
+    }
+    
+    .line{
+        display: none;
+    }
+};
+
+
+
+
+
+
+
+    /* .head, .head2{
+        height: 100vh;
+    }
+
+    .about__head{
+        height: 517px;
+    } */
+
+    
+
+
+
+}
+
